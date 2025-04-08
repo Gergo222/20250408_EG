@@ -6,9 +6,9 @@ function osszefuz(a, b){
     return `${a} - ${b}`
 }
 
-/*function arrayContains(tomb, elem){
+function arrayContains(tomb, elem){
     return tomb.includes(elem)
-}*/
+}
 
 function getGrade(limit, point){
     const percent = point / limit * 100
@@ -24,8 +24,42 @@ function getGrade(limit, point){
         return 1
     }
 }
+
+function addXTimes(base, add, times){
+    let value = base
+    for(let i = 0; i < times; i++){
+        value += add
+    }
+    return value
+}
+
+function arrayElement(tomb, elem){
+    if(elem !== null){
+        tomb.push(elem)
+    }
+
+    return tomb
+}
+
+function convertItemsToString(item) {
+    return `${item}`
+}
+
+function mapArrayElements(tomb){
+    return tomb.map(item => convertItemsToString(item))
+}
+
+function getRandomByChance(chance = 50){
+    return Math.random() < (chance / 100)
+}
 module.exports = {
     sum,
     osszefuz,
-    getGrade
+    getGrade,
+    addXTimes,
+    arrayContains,
+    arrayElement,
+    convertItemsToString,
+    mapArrayElements,
+    getRandomByChance
 };

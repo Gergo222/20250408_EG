@@ -14,4 +14,13 @@ it('changes class on hover', async()=>{
     await userEvent.hover(screen.getByTestId('link'))
 
     expect(screen.getByTestId("link").className).toBe("hovered")
+
+    await userEvent.unhover(screen.getByTestId("link"))
+    expect(screen.getByTestId("link").className).toBe("")
+})
+
+it('href is same page', async () =>{
+    render(<Link>Google</Link>)
+
+    expect(screen.getByTestId("link").getAttribute("href")).toBe("#")
 })

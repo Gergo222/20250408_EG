@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1744279388868" clover="3.2.0">
-  <project timestamp="1744279388868" name="All files">
-    <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2" elements="10" coveredelements="7" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
+<coverage generated="1744287864741" clover="3.2.0">
+  <project timestamp="1744287864741" name="All files">
+    <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6" elements="20" coveredelements="20" complexity="0" loc="10" ncloc="10" packages="1" files="2" classes="2"/>
+    <file name="Input.js" path="C:\Users\Egyedge\OneDrive\Dokumentumok\GitHub\20250408_EG\react\Input.js">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <line num="4" count="6" type="stmt"/>
+      <line num="5" count="6" type="stmt"/>
+      <line num="6" count="6" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
     <file name="Link.js" path="C:\Users\Egyedge\OneDrive\Dokumentumok\GitHub\20250408_EG\react\Link.js">
-      <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
       <line num="3" count="1" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
-      <line num="14" count="2" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
       <line num="16" count="1" type="stmt"/>
-      <line num="19" count="0" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
